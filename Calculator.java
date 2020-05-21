@@ -4,6 +4,7 @@ public class Calculator {
 
         int result = createBMI(78, 2);
         System.out.println(result);
+        System.out.println(result);
     }
     public static int createBMI(int weight, int height) {
         return weight / (height * height);
