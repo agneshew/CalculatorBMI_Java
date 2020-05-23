@@ -45,7 +45,7 @@ public class Calculator {
     }
 
     public static double createBMI(Parameters parameters) {
-        if (Unit.KG.equals("kg")) {
+        if (Unit.KG.equals(parameters.getUnit())) {
             return (parameters.getWeight() / (parameters.getHeight() * parameters.getHeight()));
         }
         else {
