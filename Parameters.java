@@ -1,5 +1,4 @@
 public class Parameters {
-   // public String units (String kg, String ibs) {
     private double weight;
     private double height;
     private Unit unit;
