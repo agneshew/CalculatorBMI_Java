@@ -1,1 +1,1 @@
-# CalculatorBMI_Java
+Simple BMI calculator. My first program in Java.
